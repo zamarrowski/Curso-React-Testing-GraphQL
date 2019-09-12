@@ -68,4 +68,4 @@ Puedes comprobarlo visitando este [link](https://babeljs.io/repl#?babili=false&b
 
 
 
-[<- Volver al índice](./../README.MD)
+[<- Volver al índice](./../README.md)

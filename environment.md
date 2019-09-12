@@ -9,4 +9,4 @@ Para poder trabajar en clase necesitaremos:
 * [create-react-app](https://create-react-app.dev/)
 
 
-[<- Volver al índice](./README.MD)
+[<- Volver al índice](./README.md)

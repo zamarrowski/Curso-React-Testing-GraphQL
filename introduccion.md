@@ -24,3 +24,4 @@ React es usado por empresas muy importantes como puede ser Facebook, Netflix, Pa
 
 ![stackoverflowsurvey](./images/stackoverflow_survey.png)
 
+[<- Volver al índice](./README.md)
