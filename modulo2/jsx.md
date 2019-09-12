@@ -3,7 +3,7 @@
 ## JSX
 
 ```jsx
-const element = <h1>¡Hola Fictizia!</h1>
+const element = () => <h1>¡Hola Fictizia!</h1>
 ```
 
 El código mostrado arriba, a simple vista, puede parecer raro. No es ni HTML, ni es un string es JSX. Básicamente es una extensión de la sintáxis de JavaScript y es la manera más como de desarrollar en React. No es obligatorio pero podríamos decir que todo el mundo que hace React utiliza JSX.
@@ -25,7 +25,7 @@ En el siguiente ejemplo tenemos una variable llamada `name` la cual la usamos de
 
 ```js
 const name = 'Fictizia'
-const element = <h1>¡Hola {name}!</h1>
+const element = () => <h1>¡Hola {name}!</h1>
 ```
 
 No solo se pueden renderizar variables sino todo tipo de expresiones dentro de las llaves:
@@ -34,20 +34,20 @@ No solo se pueden renderizar variables sino todo tipo de expresiones dentro de l
 
 ```js
 const getName = (user) => user.name
-const element = <h1>¡Hola {getName()}!</h1>
+const element = () => <h1>¡Hola {getName()}!</h1>
 ```
 
 * Ternarias:
 
 ```js
 const age = 18
-const element = <h1>¡Hola {age > 18 ? 'adulto' : 'joven'}!</h1>
+const element = () => <h1>¡Hola {age > 18 ? 'adulto' : 'joven'}!</h1>
 ```
 
 Realmente JSX representa objetos de JavaSript pero [Babel](https://babeljs.io/) compila el JSX a una función de React llamada `createElement()`.
 
 ```jsx
-const element = <h1>¡Hola Fictizia!</h1>
+const element = () => <h1>¡Hola Fictizia!</h1>
 ```
 
 Sería igual a esto:
