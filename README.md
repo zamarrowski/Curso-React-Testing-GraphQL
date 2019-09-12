@@ -11,3 +11,4 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
 2. Conceptos básicos de React:
     1. [Introducción a JSX](./modulo2/jsx.md)
     2. [Renderizando componentes](./modulo2/render.md)
+    3. [Componentes y propiedades](./modulo2/props.md)
