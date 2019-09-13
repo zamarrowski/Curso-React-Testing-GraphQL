@@ -17,6 +17,7 @@ Esta idea de meter el HTML dentro de JavaScript es muy criticada pero se basa en
 Hay algunos atributos de las etiquetas HTML que cambian:
 
 * class: en React hay que escribir **className**
+* onclick: en React hay que escribir **onClick**
 * A los atributos se les puede pasar funciones, objetos, texto, expresiones...
 
 ## Renderizando variables en JSX
