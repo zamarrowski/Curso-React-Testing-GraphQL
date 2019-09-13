@@ -1,8 +1,7 @@
-# Curso React + Redux
+![fictizia](./images/fictizia.jpeg)
+# [Curso React + Redux](https://fictizia.com/formacion/curso-react-js-redux)
 
 Aprende a programar aplicaciones web con React, una de las tecnologías JS más demandadas del sector, de la mano de reconocidos desarrolladores.
-
-
 
 # Indice
 
