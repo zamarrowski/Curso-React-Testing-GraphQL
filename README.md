@@ -12,3 +12,4 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     1. [Introducción a JSX](./modulo2/jsx.md)
     2. [Renderizando componentes](./modulo2/render.md)
     3. [Componentes y propiedades](./modulo2/props.md)
+    3. [El estado](./modulo2/state.md)
