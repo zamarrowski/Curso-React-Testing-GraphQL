@@ -19,3 +19,5 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     7. Pintando listas
     8. Formularios
     9. Subiendo el estado
+    10. Herencia vs composicion
+    11. Pensando en React
