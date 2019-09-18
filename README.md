@@ -14,7 +14,7 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     3. [El estado](./modulo2/state.md)
     4. [Ciclo de vida](./modulo2/lifecycle.md)
     5. [Gestionando eventos en React](./modulo2/events.md)
-    6. Renderizado condicional
+    6. [Renderizado condicional](./conditionalRender.md)
     7. Pintando listas
     8. Formularios
     9. Subiendo el estado

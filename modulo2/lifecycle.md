@@ -18,7 +18,7 @@ Para enlazar manejadores de eventos a una instancia.
 
 No debes llamar setState() en el constructor(). En su lugar, si su componente necesita usar el estado local, asigna directamente el estado inicial al this.state directamente en el constructor:
 
-```
+```js
 constructor(props) {
   super(props);
   // No llames this.setState() aquí!
@@ -45,7 +45,7 @@ componentDidUpdate() se invoca inmediatamente después de que la actualización 
 
 Use esto como una oportunidad para operar en DOM cuando el componente se haya actualizado. Este es también un buen lugar para hacer solicitudes de red siempre y cuando compare los accesorios actuales con los anteriores (por ejemplo, una solicitud de red puede no ser necesaria si los props no han cambiado).
 
-```
+```js
 componentDidUpdate(prevProps) {
   // Uso tipico (no olvides de comparar los props):
   if (this.props.userID !== prevProps.userID) {
