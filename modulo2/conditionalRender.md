@@ -69,3 +69,5 @@ En casos excepcionales, es posible que desees que un componente se oculte a sí 
 
 1. Quiero tener una pagina que solo se muestre cuando estoy logueado. Cuando estoy logueado se mostrará un texto que dira `"Esta pagina solo puedo verla por que estoy logueado"` y un botón de cerrar sesión. Cuando **NO** esté logueado mostrará un boton de Login y un mensaje de `"Inicia sesión para ver contenido privado"`.
 
+
+[<- Volver al índice](./../README.md)
