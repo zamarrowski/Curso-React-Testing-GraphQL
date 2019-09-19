@@ -16,7 +16,7 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     5. [Gestionando eventos en React](./modulo2/events.md)
     6. [Renderizado condicional](./modulo2/conditionalRender.md)
     7. [Pintando listas](./modulo2/renderList.md)
-    8. Formularios
+    8. [Formularios](./modulo2/forms.md)
     9. Subiendo el estado
     10. Herencia vs composicion
     11. Pensando en React

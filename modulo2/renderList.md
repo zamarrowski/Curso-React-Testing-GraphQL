@@ -87,10 +87,5 @@ function NumberList(props) {
     * AddTaskButton
     * RemoveTaskButton
 
-2. Crear un componente `Select` que pemita como props:
-    * value
-    * items
-    * onChange
-
 [<- Volver al índice](./../README.md)
 
