@@ -18,5 +18,5 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     7. [Pintando listas](./modulo2/renderList.md)
     8. [Formularios](./modulo2/forms.md)
     9. [Subiendo el estado](./modulo2/state2.md)
-    10. Herencia vs composicion
-    11. Pensando en React
+    10. [Herencia vs composicion](./modulo2/composition.md)
+    11. [Pensando en React](./modulo2/thinkingReact.md)
