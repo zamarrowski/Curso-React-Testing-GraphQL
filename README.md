@@ -20,3 +20,7 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     9. [Subiendo el estado](./modulo2/state2.md)
     10. [Herencia vs composicion](./modulo2/composition.md)
     11. [Pensando en React](./modulo2/thinkingReact.md)
+3. Conceptos avanzados de React:
+    1. [Accesibilidad](./modulo3/accessibility.md)
+    2. [División de código](./modulo3/code-splitting.md)
+    3. [React Context](./modulo3/context.md)
