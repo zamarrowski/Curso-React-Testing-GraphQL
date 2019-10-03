@@ -25,3 +25,4 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     2. [División de código](./modulo3/code-splitting.md)
     3. [React Context](./modulo3/context.md)
     4. [Gestión de errores](./modulo3/errorboundaries.md)
+    5. [High order components (HOC)](./modulo3/hoc.md)
