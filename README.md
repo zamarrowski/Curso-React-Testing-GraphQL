@@ -24,3 +24,4 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     1. [Accesibilidad](./modulo3/accessibility.md)
     2. [División de código](./modulo3/code-splitting.md)
     3. [React Context](./modulo3/context.md)
+    4. [Gestión de errores](./modulo3/errorboundaries.md)
