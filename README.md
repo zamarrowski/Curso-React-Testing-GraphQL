@@ -26,3 +26,5 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     3. [React Context](./modulo3/context.md)
     4. [Gestión de errores](./modulo3/errorboundaries.md)
     5. [High order components (HOC)](./modulo3/hoc.md)
+    6. [Creando referencias a elementos DOM](./modulo3/refs.md)
+    7. [Comprobación dinámica de tipos (PropTypes)](./modulo3/proptypes.md)
