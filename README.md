@@ -28,3 +28,5 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     5. [High order components (HOC)](./modulo3/hoc.md)
     6. [Creando referencias a elementos DOM](./modulo3/refs.md)
     7. [Comprobación dinámica de tipos (PropTypes)](./modulo3/proptypes.md)
+    8. [Hooks](./modulo3/hooks.md)
+    9. [React Lazy y React Suspense](./modulo3./lazySuspense.md)
