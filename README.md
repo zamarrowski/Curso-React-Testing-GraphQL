@@ -30,3 +30,5 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     7. [Comprobación dinámica de tipos (PropTypes)](./modulo3/proptypes.md)
     8. [Hooks](./modulo3/hooks.md)
     9. [React Lazy y React Suspense](./modulo3/lazySuspense.md)
+4. Librerias imprescindibles:
+    1. [React-Router](modulo4(react-router.md))
