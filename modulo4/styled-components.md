@@ -52,6 +52,28 @@ const Button = styled.button`
 `;
 ```
 
+Si queremos agregar estilos en grupo segun una prop debemos usar `css`:
+
+```js
+import { css } from 'styled-components'
+```
+
+```js
+const Button = styled.button`
+  background: white;
+  color: palevioletred;
+  ${props => props.primary && css`
+    background: palevioletred;
+    color: white;
+  `};
+  font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+`;
+```
+
 ## Extendiendo estilos
 
 Podemos extender estilos de otros componentes. La única diferencia es que en vez de usar una etiqueta usaremos dicho componente en styled:
