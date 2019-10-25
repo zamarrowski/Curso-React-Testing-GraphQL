@@ -34,3 +34,6 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     1. [React-Router](./modulo4/react-router.md)
     2. [Material-UI](./modulo4/material-ui.md)
     3. [styled-components](./modulo4/styled-components.md)
+
+5. Redux
+    1. [Documentación](./modulo5/redux.md)
