@@ -37,7 +37,7 @@ Ejercicios:
 2. Crear un componente en un fichero llamado `ShowName.js` que renderize la propiedad `name` de un objeto llamado `user` en una etiqueta `p`.
 3. Crear un componente `ShowDate.js` que llame a una función que devuelva la fecha actual en una etiqutea `span`.
 4. Crear un componente `ShowMessage.js` que dependiendo de si la variable `showMessage` es true o false muestre el mensaje `Ahora puedes leer esto` en una etiqueta `p`.
-5. Usar el componte anterior para en vez de mostrar el texto mostrar el componente `ShowMessage.js`
+5. Crear un componente `ConditionalRender.js` que dependiendo de si la variable `show` es true o false muestre el componente ShowDate o no muestre nada.
 
 
 [<- Volver al índice](./../README.md)

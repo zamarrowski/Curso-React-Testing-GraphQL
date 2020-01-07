@@ -65,7 +65,7 @@ Puedes comprobarlo visitando este [link](https://babeljs.io/repl#?babili=false&b
 
 ## Ejercicios:
 
-1. Entrar en [BabelJS](https://babeljs.io/repl) y probar a un escribir un componente que tenga una clase llamada `title`. Revisar qué salida nos da BabelJS despues del compilado.
+1. Entrar en [BabelJS](https://babeljs.io/repl) y probar a escribir un componente que tenga una clase llamada `title`. Revisar qué salida nos da BabelJS después del compilado.
 
 
 
