@@ -189,12 +189,7 @@ ReactDOM.render(<App />, document.root);
 
 ## Ejercicio
 
-1. Crear una aplicacion que contenga los siguientes componentes:
-    * MainText
-      * Incluir dos componentes que sean una etiqueta `<p>`
-    * Button
-
-El texto de los componentes se puede ver en español o en inglés dependiendo de lo que se le pase por el Context. Si pulsas en el boton el idioma deberia cambiar
+1. Crear un context que contenga los datos de un usuario. Añadirlo en el componente padre de la aplicación y mostrarlo en un componente hijo.
 
 
 [<- Volver al índice](./../README.md)
