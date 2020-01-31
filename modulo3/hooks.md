@@ -221,6 +221,7 @@ function App() {
 2. Crear un componente funcional que cuando desaparezca imprima por consola "Desmontado!"
 3. Crear un componente funcional que cuando reciba nuevas props del padre imprima por consola "Actualizando!"."
 4. Crear un componente funcional que llame a la API https://jsonplaceholder.typicode.com/todos y pinte las tareas.
+6. Crear un componente funcional que sea un campo de texto que muestre un error cuando el texo introducido no sea "zamarro". Controlar si el componente está "dirty".
 5. Extrar la lógica de la llamada a la API a un hook personalizado y usarlo.
 
 [<- Volver al índice](./../README.md)
