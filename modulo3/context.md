@@ -189,7 +189,12 @@ ReactDOM.render(<App />, document.root);
 
 ## Ejercicio
 
-1. Crear un context que contenga los datos de un usuario. Añadirlo en el componente padre de la aplicación y mostrarlo en un componente hijo.
+1. Queremos tener una aplicación que soporte dos idiomas. Para ello tendremos:
+  * App: debe contener el estado y el context
+  * Header: desde este componente se cambiará el idioma de la aplicación
+  * Content:
+    - Text: que muestre un texto en el idioma seleccionado. **DEBE SER UNA CLASE**
+    - Button: que muestre un texto en el idioma seleccionado. **DEBE SER UNA FUNCIÓN**
 
 
 [<- Volver al índice](./../README.md)
