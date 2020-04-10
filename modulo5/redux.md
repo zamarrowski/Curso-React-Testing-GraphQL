@@ -4,6 +4,10 @@
 
 Os dejo por [aquí](https://es.slideshare.net/SergioZamarroSnchez/redux-reactadalab) las diapositivas.
 
+```
+npm i --save redux react-redux
+```
+
 ## Ejercicios:
 
 Se trata de hacer un ejercicio final donde podamos practicar todo o casi todo lo que hemos visto. He preparado varias APIs para ayudarnos. El objetivo es hacer una especie de Instagram donde usemos Redux, styled-components y react-router. El estilo de la página es lo menos importante pero nos apoyaremos en styled-components cuando sea necesario:

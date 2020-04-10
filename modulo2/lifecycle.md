@@ -68,6 +68,8 @@ No debes llamar setState() en componentWillUnmount() porque el componente nunca 
 
 1. Crear un componente de clase que tenga un estado con una propiedad `users` y sea un `array` de nombres. El estado debe estar inicializado con dos nombres. Cuando el componente se haya montado añadir un usuario más y actualizar el estado. Cuando el componente se destruya debería de sacar un mensaje por consola diciendo `¡Componente destruido!`.
 
-2. Crear un componente de clase que tenga un estado con la propiedad `tasks`. Hacer una peticion a `https://jsonplaceholder.typicode.com/todos` y pintar el JSON que te devuelve.
+2. Crear un componente que vaya mostrando los segundos que pasan
+
+3. Crear un componente de clase que tenga un estado con la propiedad `tasks`. Hacer una peticion a `https://jsonplaceholder.typicode.com/todos` y pintar el JSON que te devuelve.
 
 [<- Volver al índice](./../README.md)

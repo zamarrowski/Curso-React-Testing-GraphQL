@@ -174,9 +174,13 @@ function FormattedDate(props) {
 
 **Ejercicios:**
 
-1. Crear un componente de clase que muestre un contador y tenga dos botones: uno de incrementar y otro de decrementar.
-2. Crear un componente de clase que muestre un `string` vacio y tenga dos botones: uno de incrementar y otro de decrementar. Cuandos se pinche el de incrementar añadirá una letra al string y cuando se pinche en el de decrementar quitará una letra.
-3. Refactorizar el primer ejemplo para que:
+1. Vamos a tener un campo de texto donde vamos a poder escribir y por otro lado vamos a tener una etiqueta `<h1>` donde mostraremos el texto que va escribiendo el usuario
+2. Vamos a tener un campo de texto donde poder meter nuestra contraseña. Al lado tiene que haber un botón que si pulsamos en el se mostrará la contraseña en claro.
+3. Crear un componente de clase que muestre un contador y tenga dos botones: uno de incrementar y otro de decrementar.
+4. Crear un componente de clase que muestre un `string` vacio y tenga dos botones: uno de incrementar y otro de decrementar. Cuandos se pinche el de incrementar añadirá una letra al string y cuando se pinche en el de decrementar quitará una letra.
+5. Vamos a tener un botón que al pinchar activará un cronómetro (de segundo en segundo) e irá mostrandose en pantalla los segundos
+6. Vamos a tener el típico boton de likes (el valor de likes estará inicializado a 50). Sólo se puede dar like una vez.
+7. Refactorizar el primer ejemplo para que:
     1. Los botones sean componentes a parte.
     2. El texto del contador sea un componente a parte
     3. El componente Counter sea quien tenga el estado y las funciones que lo actualizan y se lo pase a sus hijos.
