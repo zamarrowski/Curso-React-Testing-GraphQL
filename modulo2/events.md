@@ -136,7 +136,17 @@ En ambos casos, el argumento e que representa el evento de React va a ser pasado
 ## Ejercicios:
 
 1. Crear un componente de clases que al pulsar un boton llame a `https://jsonplaceholder.typicode.com/todos/1` y pinte el JSON.
-2. Crear un componente que pinte el texto que estamos escribiendo en `input`
-3. Crear un componente que muestre el `value` seleccionado de una etiqueta `<select>`
+2. Dada la siguiente lista pintar el número del item seleccionado en una etiqueta `<h2>`:
+
+```
+  <ul>
+    <li>Primera opción</li>
+    <li>Segunda opción</li>
+    <li>Tercera opción</li>
+    <li>Cuarta opción</li>
+  </ul>
+```
+3. Crear un componente que sea un campo de texto que cuando tenga el `focus` muestre el mensaje "dentro" y que cuando pierda el focus muestre un mensaje "fuera"
+4. Crear un componente que muestre el `value` seleccionado de una etiqueta `<select>`
 
 [<- Volver al índice](./../README.md)
