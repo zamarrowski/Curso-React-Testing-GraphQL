@@ -126,7 +126,23 @@ handleInputChange(event) {
     * items
     * onChange
 
-2. Crear un formulario donde vamos a rellenar informacion de un usuario. Al pulsar el boton o pulsar el enter debería de sacar un mensaje en la consola con todos los datoss. El formulario debe contener los siguientes campos:
+2. Crear un componente que sea un campo de texto y muestre un mensaje de error en caso de que el texto introducido no sea "A tope con React"
+
+3. Crear un formulario de login (username y password) cumpliendo lo siguiente:
+    * debe validar que la password tenga al menos 8 caracteres
+    * el boton de login debe estar deshabilitado si no hay datos o la contraseña no tiene al menos 8 caracteres
+    * cuando se envíe el formulario debe loggear los datos en la consola
+
+4. Crear un componente que muestre lo fuerte que es una contraseña. Para ello vamos a definir las siguientes reglas:
+    * Si tiene al menos 8 caracteres: +1 punto
+    * Si tiene algún número: +1 punto
+    * Si tiene alguna letra en mayúscula: +1 punto
+    * Si tiene alguno de estos símbolos: $ % & / ( ) + -: +1 punto
+    * Si tiene 1 punto la contraseña es débil
+    * Si tiene 2 o 3 puntos la contraseña es normal
+    * Si tiene 4 puntos la contraseña es fuerte
+
+5. Crear un formulario donde vamos a rellenar informacion de un usuario. Al pulsar el boton o pulsar el enter debería de sacar un mensaje en la consola con todos los datoss. El formulario debe contener los siguientes campos:
 
     * Name
     * Firstname
