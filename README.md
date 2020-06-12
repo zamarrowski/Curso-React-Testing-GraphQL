@@ -5,9 +5,9 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
 
 # Indice
 
-1. [Introduccion](./introduccion.md)
+1. [Introducción](./introduccion.md)
 2. [Instalando nuestro entorno de desarrollo](./environment.md)
-2. Conceptos básicos de React:
+3. Conceptos básicos de React:
     1. [Introducción a JSX](./modulo2/jsx.md)
     2. [Renderizando componentes](./modulo2/render.md)
     3. [Componentes y propiedades](./modulo2/props.md)
@@ -20,7 +20,11 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     9. [Subiendo el estado](./modulo2/state2.md)
     10. [Herencia vs composicion](./modulo2/composition.md)
     11. [Pensando en React](./modulo2/thinkingReact.md)
-3. Conceptos avanzados de React:
+4. Testing en React:
+    1. Jest
+    2. Unit Test
+    3. Enzyme
+5. Conceptos avanzados de React:
     1. [Accesibilidad](./modulo3/accessibility.md)
     2. [División de código](./modulo3/code-splitting.md)
     3. [React Context](./modulo3/context.md)
@@ -30,10 +34,13 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     7. [Comprobación dinámica de tipos (PropTypes)](./modulo3/proptypes.md)
     8. [Hooks](./modulo3/hooks.md)
     9. [React Lazy y React Suspense](./modulo3/lazySuspense.md)
-4. Librerias imprescindibles:
+6. Librerias imprescindibles:
     1. [React-Router](./modulo4/react-router.md)
     2. [Material-UI](./modulo4/material-ui.md)
     3. [styled-components](./modulo4/styled-components.md)
-
-5. Redux
+7. React con GraphQL
+    1. Apollo
+    2. Queries
+    3. Mutations
+8. Redux
     1. [Documentación](./modulo5/redux.md)
