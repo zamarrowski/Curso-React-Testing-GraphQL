@@ -21,7 +21,7 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     10. [Herencia vs composicion](./modulo2/composition.md)
     11. [Pensando en React](./modulo2/thinkingReact.md)
 4. Testing en React:
-    1. Jest
+    1. [Jest](./testing/jest.md)
     2. Unit Test
     3. Enzyme
 5. Conceptos avanzados de React:
