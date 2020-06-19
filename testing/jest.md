@@ -127,5 +127,32 @@ test("nombre descriptivo del tests", () => {
 
 Para lanzar los tests debemos ejecutar `yarn test` o `npm test` y lanzará todos los tests que detecte.
 
+## Ejercicios
+
+1. Comprobar que en el array que devuelve la función existe el elemento "blue":
+```js
+const getColors = () => {
+  return ['yellow', 'red', 'blue']
+}
+```
+
+2. Dado el siguiente código comprobar que el array tiene 2 elementos y que blue no existe:
+```js
+const getColors = () => {
+  return ['yellow', 'red', 'blue']
+}
+
+const removeColorFromArray = (array, color) => {
+  return array.filter(element => element !== color)
+}
+
+const result = removeColorFromArray(getColors(), 'blue')
+```
+
+3. Comprobar que la siguiente función devuelve el objeto que debería crear correctamente:
+
+```js
+const createUser = (name, age) => ({ name, age })
+```
 
 [<- Volver al índice](./../README.md)
