@@ -85,8 +85,14 @@ Debemos crear los siguientes componentes y que se muestre en React como debería
 
 2. Crear un componente llamado `Loading` que si su prop `show` es es verdadera muestre sus hijos. Si es falsa muestre un mensaje: `Loading...`. **Utilizar como hijos el ejercicio anterior.**
 
-3. Seguir los siguientes pasos:
-    1. Crear un fichero llamado `Child.js` en el exportar un componente que va a ser una etiqueta `button` que como prop va a recibir una llamada `onPress` que se la asignaremos a la funcion `onClick` del botón.
-    2. Crear un componente llamado `Parent.js` que renderizará el componente `Child` y le pasará por `props` una función que se encargará de escribir en la consola el siguiente mensaje: `Hola a todos!`.
+3. Crear un componente button y pasarle por props una función (`() => console.log('holi')`). Añadirla al onClick del botón.
+
+4. Crear un componente LogProps que renderize una etiqueta `p` y saque por consola todas las props que se le pasen que deben ser:
+  * colors: `array`
+  * isActive: `boolean`
+  * callBack: `function`
+  * numberOfColors: `number`
+  * name: `string`
+
 
 [<- Volver al índice](./../README.md)
