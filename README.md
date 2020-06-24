@@ -22,7 +22,7 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     11. [Pensando en React](./modulo2/thinkingReact.md)
 4. Testing en React:
     1. [Jest](./testing/jest.md)
-    2. Unit Test
+    2. [Unit Test](./testing/unit.md)
     3. Enzyme
 5. Conceptos avanzados de React:
     1. [Accesibilidad](./modulo3/accessibility.md)

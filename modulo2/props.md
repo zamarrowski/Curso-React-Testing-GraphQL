@@ -87,7 +87,7 @@ Debemos crear los siguientes componentes y que se muestre en React como debería
 
 3. Crear un componente button y pasarle por props una función (`() => console.log('holi')`). Añadirla al onClick del botón.
 
-4. Crear un componente LogProps que renderize una etiqueta `p` y saque por consola todas las props que se le pasen que deben ser:
+4. Crear un componente LogProps que renderize una etiqueta `p` y saque por consola todas las props que se le pasen, que deben ser:
   * colors: `array`
   * isActive: `boolean`
   * callBack: `function`
