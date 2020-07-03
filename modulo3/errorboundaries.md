@@ -8,24 +8,26 @@ Los límites de errores son componentes de React que capturan errores de JavaScr
 
 
 ```js
-class ErrorBoundary extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { hasError: false };
+import React from 'react'
+
+export class ErrorBoundary extends React.Component {
+
+  state = { hasError: false }
+
+  static getDerivedStateFromError(error) {
+    return { hasError: true }
   }
 
   componentDidCatch(error, errorInfo) {
-    // También puedes registrar el error en un servicio de reporte de errores
-    logErrorToMyService(error, errorInfo);
+    console.log(error, errorInfo)
   }
 
   render() {
     if (this.state.hasError) {
-      // Puedes renderizar cualquier interfaz de repuesto
-      return <h1>Something went wrong.</h1>;
+      return <h1>Something went wrong.</h1>
     }
 
-    return this.props.children;
+    return this.props.children
   }
 }
 ```
@@ -43,6 +45,6 @@ Los límites de errores funcionan como un bloque catch{} de JavaScript, pero par
 
 ## Ejercicios:
 
-1. Crear un contador que cuando el marcador sea 3 levante una excpeción y la capture un componente mostrando un mensaje de error.
+1. Crear un contador que cuando el marcador sea 3 levante una excepción y la capture un componente mostrando un mensaje de error y sacando el error por consola.
 
 [<- Volver al índice](./../README.md)
