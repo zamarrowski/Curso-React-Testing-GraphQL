@@ -52,7 +52,7 @@ it('Should renders children when passed', () => {
 })
 ```
 
-### Métodos más usados
+## Métodos más usados
 
 1. `at(index)` devuelve un wrapper del nodo dada la posición pasada como parámetro
 
