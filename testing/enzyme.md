@@ -355,4 +355,16 @@ test('Should call to function when click in the button', () => {
     1. El componente `ShopPage.js`
     2. El componente `ProductsList.js`
 
+2. Testear el componente `src/clase4/Select.js`
+```js
+import React from 'react'
+
+export default props =>
+  <select value={props.value} onChange={props.onChange}>
+    {props.items.map(val => (
+      <option value={val}>{val}</option>
+    ))}
+  </select>
+```
+
 [<- Volver al índice](./../README.md)

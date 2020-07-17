@@ -123,3 +123,5 @@ const Rotate = styled.div`
     * Warning
     * Error
     * Info
+2. Crear un grid con 5 columnas donde se use cada uno de los botones anteriores
+3. Usar el `src/logo.svg` y crear una animación que haga rotar el logo
