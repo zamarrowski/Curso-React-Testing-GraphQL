@@ -48,7 +48,7 @@ Desde éste playground podemos utilizar las APIs de GraphQL que exponen:
 1. Utilizando la API de HackerNews v0 obtener de las top stories su url y score
 2. Utilizando la API de Twitter obtener el texto de los tuits que hablen sobre "GraphQL"
 3. Utilizando la API de Github obtener los commits de los repositorios de @gaearon
-4. Arrancar el servidor que hay en `graphql/server` y hacer algunas consultas
+4. Arrancar el servidor que hay en `graphql/server` y hacer algunas consultas en `http://localhost:8000/graphql`
 
 
 [<- Volver al índice](./../README.md)
