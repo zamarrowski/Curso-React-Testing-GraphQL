@@ -1,0 +1,28 @@
+type Query {
+  getUser(userId: ID!) : User
+  getUsers : [User]
+  getPosts(userId: ID!) : [Post]
+  getComments(postId: ID!) : [Comment]
+}
+
+type User {
+  id: ID
+  first_name: String
+  last_name: String
+  email: String
+  username: String
+}
+
+type Post {
+  id: ID
+  content: String
+  userId: ID
+  likes: Int
+}
+
+type Comment {
+  id: ID
+  content: String
+  postId: ID
+  likes: Int
+}
