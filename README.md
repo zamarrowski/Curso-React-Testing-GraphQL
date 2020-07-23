@@ -39,6 +39,7 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     2. [Material-UI](./modulo4/material-ui.md)
     3. [styled-components](./modulo4/styled-components.md)
 7. React con GraphQL
+    1. [GraphQL](./graphql/intro.md)
     1. Apollo
     2. Queries
     3. Mutations
