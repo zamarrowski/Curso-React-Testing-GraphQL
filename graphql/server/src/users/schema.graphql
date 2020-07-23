@@ -1,6 +1,7 @@
 type Query {
   getUser(userId: ID!) : User
   getUsers : [User]
+  changeUsername(userId: ID!, newUsername: String!) : User
   getPosts(userId: ID!) : [Post]
   getComments(postId: ID!) : [Comment]
 }
