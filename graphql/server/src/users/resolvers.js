@@ -6,6 +6,8 @@ export const resolvers = {
     getUsers: () => getUsers(),
     getPosts: (_, { userId }) => getPosts(userId),
     getComments: (_, { postId }) => getComments(postId),
-    changeUsername: (_, { userId, newUsername }) => changeUsername(userId, newUsername)
   },
+  Mutation: {
+    changeUsername: (_, { userId, newUsername }) => changeUsername(userId, newUsername)
+  }
 }

@@ -3,12 +3,12 @@
 ![graphql](https://miro.medium.com/max/1000/1*Fz_DTbJptm_S7GccttSFVw.png)
 
 
-# ¿Qué es GraphQL?
+## ¿Qué es GraphQL?
 
 Es una herramienta desarrollada por **Facebok** que intenta de solucionar un clásico problema que tenemos a la hora de consumir recursos de APIs REST.
 Ya hay muchas empresas que lo usan en producción como Facebook, Github, Pinterest, Shopify, Atlassian...
 
-# La problemática
+## La problemática
 
 En una API REST se expone un endpoint por recurso, esto implica que hay veces que tendremos que hacer varias llamadas hacia esa API si queremos, por ejemplo, una pantalla en la que se visualicen los datos de un usuario, sus posts y los seguidores que tiene. Para conseguir esto haríamos 3 peticiones, algo así:
 
@@ -22,7 +22,7 @@ En GraphQL podemos pedir los datos que necesitamos desde el cliente. Esto nos pe
 
 ![graphql](https://imgur.com/z9VKnHs.png)
 
-# Ventajas
+## Ventajas
 
 * No se crean endpoints a medida
 * No nos traemos datos innecesarios
@@ -30,7 +30,7 @@ En GraphQL podemos pedir los datos que necesitamos desde el cliente. Esto nos pe
 * Las herramientas de desarrollo en torno a GraphQL
 
 
-# Playground de GraphQL
+## Playground de GraphQL
 
 Podemos practicar a hacer queries sin tener nada montado en nuestro ordenador desde [GraphQLHub](https://www.graphqlhub.com/playground).
 Desde éste playground podemos utilizar las APIs de GraphQL que exponen:
