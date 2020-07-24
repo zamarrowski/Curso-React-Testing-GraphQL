@@ -15,7 +15,7 @@ Lo primero que tenemos que hacer es escribir una mutation para poder pasársela 
 import { gql } from '@apollo/client'
 
 export const CHANGE_USERNAME = gql`
-  mutation changeUsername($userId ID!, $newUsername String!) {
+  mutation changeUsername($userId: ID!, $newUsername: String!) {
     changeUsername(userId: $userId, newUsername: $newUsername) {
       username
     }
