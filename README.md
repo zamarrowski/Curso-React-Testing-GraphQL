@@ -42,6 +42,6 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     1. [GraphQL](./graphql/intro.md)
     1. [Apollo](./graphql/apollo.md)
     2. [Queries](./graphql/queries.md)
-    3. Mutations
+    3. [Mutations](./graphql/mutations.md)
 8. Redux
     1. [Documentación](./modulo5/redux.md)
