@@ -79,7 +79,18 @@ function NumberList(props) {
 
 ## Ejercicios:
 
-1. Crear un TODO list que permita añadir, borrar y editar. Debería de haber los siguientes componentes:
+1. Dado el siguiente array de usuarios pintar una lista (`ul`) con sus nombres:
+
+```js
+const users = ['sergio', 'victoria', 'iván', 'liviu']
+```
+
+2. Dado el siguiente array pintar una lista de usuarios donde aparezca el nombre y la edad de cada uno:
+```js
+const users = [{ name: 'Sergio', age: 28 }, { name: 'Victoria', age: 27 }, { name: 'Iván', age: 30 }, { name: 'Liviu', age: 26 }]
+```
+
+3. Crear un TODO list que permita añadir, borrar y editar. Debería de haber los siguientes componentes:
     * ListContainer
     * List
     * ListItem
