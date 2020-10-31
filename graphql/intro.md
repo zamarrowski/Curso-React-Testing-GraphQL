@@ -32,22 +32,13 @@ En GraphQL podemos pedir los datos que necesitamos desde el cliente. Esto nos pe
 
 ## Playground de GraphQL
 
-Podemos practicar a hacer queries sin tener nada montado en nuestro ordenador desde [GraphQLHub](https://www.graphqlhub.com/playground).
-Desde éste playground podemos utilizar las APIs de GraphQL que exponen:
-
-* hn: HackerNewsAPI
-* hn2: HackerNewsAPIV2
-* reddit: RedditAPI
-* keyValue: KeyValueAPI
-* github: GithubAPI
-* twitter: TwitterAPI
-* giphy: GiphyAPI
+Existe un repositorio llamado [GraphQL Apis](https://github.com/APIs-guru/graphql-apis) en el que podemos encontrar una lista de APIs hechas con GraphQL y probarlas.
 
 ## Ejercicios
 
-1. Utilizando la API de HackerNews v0 obtener de las top stories su url y score
-2. Utilizando la API de Twitter obtener el texto de los tuits que hablen sobre "GraphQL"
-3. Utilizando la API de Github obtener los commits de los repositorios de @gaearon
+1. Utilizando la API de [Countries](https://countries.trevorblades.com/) obtener de los países su `code` y `emoji`
+2. Utilizando la API de [Countries](https://countries.trevorblades.com/) obtener el `name` y `native` del país con `code` "ES"
+3. Utilizando la API de [ETMDB](https://etmdb.com/graphql) obtener el titulo de la `lesson` con ID "5p9qNpTOJaCE6ykC4a8Wqg"
 4. Arrancar el servidor que hay en `graphql/server` y hacer algunas consultas en `http://localhost:8000/graphql`
 
 
