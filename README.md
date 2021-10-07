@@ -1,5 +1,6 @@
-![fictizia](./images/fictizia.jpeg)
-# [Curso React + Redux](https://fictizia.com/formacion/curso-react-js-redux)
+# [Curso React + Testing + GraphQL](https://github.com/zamarrowski/Curso-React-Testing-GraphQL)
+
+<img src="./images/header.png" alt="header" width="100%"/>
 
 Aprende a programar aplicaciones web con React, una de las tecnologías JS más demandadas del sector, de la mano de reconocidos desarrolladores.
 
@@ -46,3 +47,4 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     3. [Mutations](./graphql/mutations.md)
 8. Redux
     1. [Documentación](./modulo5/redux.md)
+9. [Opiniones](https://github.com/zamarrowski/Curso-React-Testing-GraphQL/issues/46)
