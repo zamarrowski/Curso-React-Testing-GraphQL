@@ -90,7 +90,66 @@ const users = ['sergio', 'victoria', 'iván', 'liviu']
 const users = [{ name: 'Sergio', age: 28 }, { name: 'Victoria', age: 27 }, { name: 'Iván', age: 30 }, { name: 'Liviu', age: 26 }]
 ```
 
-3. Crear un TODO list que permita añadir, borrar y editar. Debería de haber los siguientes componentes:
+3. Hacer una petición a `api.coincap.io/v2/assets` y pintar un select con las distintas criptomonedas que nos devuelve
+
+4. Vamos a crear un portfolio de criptomonedas. Debemos poder:
+    * Añadir una criptomoneda al portfolio con la cantidad que deseemos
+    * Borrar una criptomoneda al portfolio
+    * Si añadimos dos veces la misma moneda debería de sumarse a la anterior cantidad que tuviesemos y no salir por duplicado
+    * Pintar una gráfica con el porcentaje de criptomonedas que tenemos. Para ello he creado este componente que podéis copiar y pegar:
+
+```js
+import React from 'react'
+import { Doughnut } from 'react-chartjs-2'
+
+const getData = cryptos => {
+  const total = cryptos.reduce((acum, next) => acum + next.price * next.total, 0)
+  return {
+    labels: cryptos.map(c => c.name),
+    datasets: [{
+      data: cryptos.map(c => (c.total * c.price) * 100 / total),
+      backgroundColor: [
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(255, 206, 86, 0.2)',
+        'rgba(75, 192, 192, 0.2)',
+        'rgba(153, 102, 255, 0.2)',
+        'rgba(255, 159, 64, 0.2)',
+      ],
+      borderColor: [
+        'rgba(255, 99, 132, 1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)',
+      ],
+    }]
+  }
+}
+
+const PortfolioChart = props => (
+  <div style={{height: '100px'}}>
+    <Doughnut data={getData(props.cryptos)} />
+  </div>
+)
+
+export default PortfolioChart
+```
+
+Para utilizarlo tenéis que pasarle la información de la siguiente manera:
+
+```js
+<PortfolioChart 
+  cryptos={[
+    { name: 'btc', total: 1, price: 50000 }, 
+    { name: 'ada', total: 1050, price: 2 }, 
+    { name: 'USDT', total: 35000, price: 1 }
+  ]} 
+/>
+```
+
+5. Crear un TODO list que permita añadir, borrar y editar. Debería de haber los siguientes componentes:
     * ListContainer
     * List
     * ListItem
