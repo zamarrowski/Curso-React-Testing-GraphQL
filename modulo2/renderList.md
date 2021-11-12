@@ -95,6 +95,7 @@ const users = [{ name: 'Sergio', age: 28 }, { name: 'Victoria', age: 27 }, { na
 4. Vamos a crear un portfolio de criptomonedas. Debemos poder:
     * Añadir una criptomoneda al portfolio con la cantidad que deseemos
     * Borrar una criptomoneda al portfolio
+    * Mostrar el precio total de nuestras criptomonedas
     * Si añadimos dos veces la misma moneda debería de sumarse a la anterior cantidad que tuviesemos y no salir por duplicado
     * Pintar una gráfica con el porcentaje de criptomonedas que tenemos. Para ello he creado este componente que podéis copiar y pegar:
 
