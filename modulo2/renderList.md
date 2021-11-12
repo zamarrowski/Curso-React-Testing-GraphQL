@@ -138,6 +138,7 @@ const PortfolioChart = props => (
 export default PortfolioChart
 ```
 
+Hay que instalar `chartjs y react-chartjs`: `npm install --save react-chartjs-2 chart.js`
 Para utilizarlo tenéis que pasarle la información de la siguiente manera:
 
 ```js
