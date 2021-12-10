@@ -47,4 +47,6 @@ Aprende a programar aplicaciones web con React, una de las tecnologías JS más 
     3. [Mutations](./graphql/mutations.md)
 8. Redux
     1. [Documentación](./modulo5/redux.md)
-9. [Opiniones](https://github.com/zamarrowski/Curso-React-Testing-GraphQL/issues/46)
+9. NextJS
+    1. [Documentación](./modulo6/nextjs.md)
+10. [Opiniones](https://github.com/zamarrowski/Curso-React-Testing-GraphQL/issues/46)
